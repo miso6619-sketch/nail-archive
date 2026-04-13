@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import ClassesPage from "./Pages/ClassesPage";
 import DetailPage from "./Pages/DetailPage";
@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
         <Header />
 
@@ -17,7 +17,7 @@ function App() {
           <Route path="/detail/:id" element={<DetailPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
