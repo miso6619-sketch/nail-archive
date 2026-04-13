@@ -1,0 +1,135 @@
+.detail-page {
+  width: 100%;
+  min-height: calc(100vh - 82px);
+  padding: 80px 0 100px;
+}
+
+.detail-wrap {
+  width: 92%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.detail-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 44px;
+  align-items: center;
+  padding: 34px;
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.56);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  box-shadow: 0 18px 40px rgba(111, 81, 91, 0.08);
+}
+
+.detail-visual {
+  width: 100%;
+}
+
+.detail-img {
+  width: 100%;
+  border-radius: 26px;
+  object-fit: cover;
+  box-shadow: 0 18px 36px rgba(121, 89, 100, 0.08);
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.detail-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(238, 223, 227, 0.92);
+  color: #86636f;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.detail-title {
+  margin: 0 0 14px;
+  font-size: 2.45rem;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+  color: #2f2428;
+}
+
+.detail-desc {
+  margin: 0 0 24px;
+  font-size: 1rem;
+  line-height: 1.85;
+  text-align: left;
+  color: rgba(53, 41, 46, 0.72);
+}
+
+.detail-box {
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 22px 20px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.48);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(126, 98, 108, 0.12);
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #7d5f69;
+}
+
+.detail-value {
+  font-size: 0.95rem;
+  color: #4e3d43;
+  text-align: right;
+}
+
+.detail-btn {
+  min-width: 220px;
+  height: 52px;
+  padding: 0 24px;
+  border: none;
+  border-radius: 16px;
+  background: rgba(79, 57, 66, 0.94);
+  color: #fff;
+  margin-top: 15px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 22px rgba(79, 57, 66, 0.14);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.detail-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 24px rgba(79, 57, 66, 0.18);
+}
+
+.detail-empty {
+  width: 100%;
+  min-height: calc(100vh - 82px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.05rem;
+  color: rgba(53, 41, 46, 0.68);
+}

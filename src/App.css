@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(236, 209, 217, 0.55) 0%, rgba(236, 209, 217, 0.28) 22%, rgba(255, 255, 255, 0) 62%),
+    linear-gradient(90deg, #fdfcfc 0%, #f8f2f4 18%, #f3e3e8 50%, #f8f2f4 82%, #fdfcfc 100%);
+  color: #3f3237;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  border: none;
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+/* 공통 header */
+.home-header {
+  position: relative;
+  z-index: 10;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 82px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.home-inner {
+  width: 92%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-logo {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home-logo-image {
+  display: block;
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+.home-nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.home-nav a,
+.home-menu {
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #5d4a51;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.home-nav a:hover,
+.home-menu:hover {
+  opacity: 0.65;
+}
+
+.home-menu.active {
+  font-weight: 700;
+}
