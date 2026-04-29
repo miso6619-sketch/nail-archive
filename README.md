@@ -1,16 +1,53 @@
-# React + Vite
+# Soft Mood Nail Archive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+다양한 네일 디자인을 탐색할 수 있는  
+React 기반 네일 디자인 아카이브 사이트입니다.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 프로젝트 개요
+- 주제: 네일 디자인 아카이브
+- 목표: 다양한 네일 디자인을 카테고리별로 탐색하고 상세 정보를 확인할 수 있는 사이트 제작
+- 구성: 메인 / 디자인 탐색 / 상세 페이지
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 주요 작업
 
-## Expanding the ESLint configuration
+### 🧾 React 페이지 구성
+- React Router를 사용해 페이지 이동 구현
+- 메인 페이지, 탐색 페이지, 상세 페이지로 구성
+- 공통 Header를 사용해 전체 페이지 이동 구조 정리
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🎨 디자인 탐색 페이지
+- 배너 슬라이드 구현
+- 카테고리 버튼을 통한 디자인 필터링
+- 카드형 UI로 네일 디자인 목록 구성
+
+---
+
+### 🔍 상세 페이지
+- 선택한 디자인의 상세 정보 출력
+- Shape, Finish, Mood 정보를 구분해 표시
+- 상세 페이지에서 아카이브 페이지로 돌아가는 버튼 구현
+
+---
+
+### 📱 반응형 작업
+- 1024px / 768px / 430px 기준 반응형 적용
+- 모바일 화면에서 카드와 상세 페이지 구조가 자연스럽게 보이도록 조정
+
+---
+
+## 🛠 사용 기술
+- React
+- React Router
+- JavaScript
+- CSS
+
+---
+
+## 🔗 사이트 바로가기
+👉 [Nail-archive](https://miso6619-sketch.github.io/nail-archive/)

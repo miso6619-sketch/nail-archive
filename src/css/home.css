@@ -94,3 +94,176 @@
   transform: translateY(-2px);
   box-shadow: 0 14px 24px rgba(79, 57, 66, 0.18);
 }
+
+/* ----------------------------- 1024px ----------------------------- */
+@media (max-width: 1024px) {
+  .home-hero {
+    width: 92%;
+    min-height: auto;
+    padding: 0 0 70px;
+    margin-top: -30px;
+  }
+
+  .home-image {
+    max-width: 620px;
+    margin-top: 0;
+  }
+
+  .home-copy {
+    max-width: 500px;
+    margin-top: 12px;
+  }
+
+  .home-title {
+    font-size: 2.5rem;
+  }
+
+  .home-text {
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+
+  .home-btn {
+    min-width: 180px;
+    height: 50px;
+  }
+
+  .home-inner {
+    width: 92%;
+    padding: 18px 0;
+  }
+}
+
+/* ----------------------------- 768px ----------------------------- */
+@media (max-width: 768px) {
+  .home-hero {
+    width: 94%;
+    padding: 0 0 60px;
+    margin-top: -24px;
+  }
+
+  .home-inner {
+    width: 92%;
+    padding: 16px 0;
+  }
+
+  .home-image {
+    max-width: 520px;
+    margin-top: 0;
+  }
+
+  .home-nav {
+    gap: 10px;
+  }
+
+  .home-menu {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+
+  .home-hero {
+    width: 94%;
+    padding: 24px 0 60px;
+  }
+
+  .home-image {
+    max-width: 520px;
+    margin-top: -10px;
+  }
+
+  .home-copy {
+    max-width: 420px;
+    margin-top: 20px;
+  }
+
+  .home-sub {
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+  }
+
+  .home-title {
+    font-size: 2.1rem;
+    line-height: 1.25;
+    margin-bottom: 14px;
+  }
+
+  .home-text {
+    font-size: 0.9rem;
+    line-height: 1.75;
+    margin-bottom: 24px;
+  }
+
+  .home-btn {
+    min-width: 170px;
+    height: 48px;
+    font-size: 0.9rem;
+  }
+}
+
+/* ----------------------------- 430px ----------------------------- */
+@media (max-width: 430px) {
+  .home-inner {
+    width: 94%;
+    padding: 14px 0;
+  }
+
+  .home-logo-image {
+    max-width: 92px;
+  }
+
+  .home-nav {
+    gap: 6px;
+  }
+
+  .home-menu {
+    font-size: 0.8rem;
+    padding: 7px 10px;
+  }
+
+  .home-hero {
+    width: 94%;
+    padding: 0 0 48px;
+    margin-top: -18px;
+  }
+
+  .home-visual {
+    margin-top: 0px;
+  }
+
+  .home-image {
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .home-copy {
+    max-width: 100%;
+    margin-top: 18px;
+    padding: 0 8px;
+  }
+
+  .home-sub {
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    margin-bottom: 8px;
+  }
+
+  .home-title {
+    font-size: 1.7rem;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+
+  .home-text {
+    font-size: 0.82rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  .home-btn {
+    width: 100%;
+    max-width: 220px;
+    min-width: auto;
+    height: 46px;
+    font-size: 0.85rem;
+  }
+}
